@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3b5998">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:id="@+id/linearLayout2"
+        android:weightSum="1">
+    <Spinner
+        android:layout_marginBottom="35dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:id="@+id/salutation_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_below="@+id/imageView"
+        android:layout_above="@+id/firstname"
+        android:entries="@array/salutation_spinner"
+        android:layout_weight="0.15" />
+
+    <EditText
+        android:id="@+id/firstname"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="#fff"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:ems="10"
+
+        android:hint="First Name"
+        android:inputType="textPersonName"
+        android:textSize="16dp"
+        android:layout_marginBottom="35dp"
+        android:layout_above="@+id/lastname"
+        android:layout_centerHorizontal="true" />
+
+
+    <EditText
+        android:id="@+id/lastname"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="#fff"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:ems="10"
+        android:hint="Last Name"
+        android:layout_above="@+id/phone"
+        android:layout_centerHorizontal="true"
+
+        android:inputType="text"
+        android:layout_marginBottom="35dp" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="#fff"
+        android:drawableLeft="@drawable/ic_local_phone_black_24dp"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:hint="Phone number"
+        android:maxLength="10"
+        android:inputType="number"
+        android:layout_above="@+id/email"
+        android:layout_marginBottom="35dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="#fff"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="text"
+        android:layout_marginBottom="70dp"
+        android:layout_alignBottom="@+id/cardView"
+        android:layout_alignLeft="@+id/firstname"
+        android:layout_alignStart="@+id/firstname" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/patientregprogress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        app:cardBackgroundColor="#fff"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="10dp"
+        android:id="@+id/cardView"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/signup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Sign up"
+                android:textColor="#000"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:id="@+id/linearLayout">
+    </LinearLayout>
+
+</RelativeLayout>

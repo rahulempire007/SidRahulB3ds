@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="35dp"
+        android:background="@color/colorPrimaryDark">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="#fff"
+            android:text="Welcome to B3S "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:text="Bussiness Info solution company that provide one to one Doctor-patient help with  Effective homeopathic and Ayurvedic medications for treating lung carcinoma It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout structure."
+            android:layout_marginTop="15dp"/>
+
+        <LinearLayout
+            android:layout_marginTop="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <Button
+                android:layout_margin="6dp"
+                android:background="@drawable/buttonstylepink"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Learn More"
+                />
+            <Button
+                android:layout_margin="6dp"
+                android:textColor="#fff"
+                android:background="@drawable/buttonstylepink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="About Us"/>
+
+
+
+        </LinearLayout>
+        <Button
+            android:background="@drawable/buttonstyle2"
+           android:textSize="30dp"
+            android:text="Join Now"
+            android:textColor="#fff"
+            android:layout_below="@+id/layout"
+            android:layout_gravity="center"
+            android:onClick="onButtonShowPopupWindowClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="60dp"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

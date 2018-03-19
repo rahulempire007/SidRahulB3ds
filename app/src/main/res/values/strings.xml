@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">B3Ds</string>
+    <string name="FB_id">1548404058548729</string>
+    <string name="radio_doctor">Doctor</string>
+    <string name="radio_patient">Patient</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="gender">Gender</string>
+    <string name="login">Login</string>
+    <string name="username">UserName</string>
+    <string name="language">Language</string>
+    <string name="logout">Logout</string>
+    <string name="registration_details">Registration Details</string>
+    <string name="register">Register</string>
+    <string name="user_profile_picture">User Profile </string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="email_address">Email</string>
+    <string name="password">Password</string>
+    <string name="don_t_have_an_account">Dont Have an Account</string>
+    <string name="android_easily_logo">Logo</string>
+    <string name="androideasily_in">Easily in</string>
+    <string name="name_static">Name</string>
+    <string name="mobile">Mobile</string>
+    <string name="email_address_static">Email</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="dialog_message">Welcome to Alert Dialog</string>
+    <string name="dialog_title">Javatpoint Alert Dialog</string>
+    <string name="registered_emailid">Enter Email</string>
+    <string name="back">Back</string>
+    <string name="submit">Submit</string>
+    <!-- Button text -->
+    <string name="btn_logout_from_google">Logout from Google</string>
+    <string name="btn_revoke_access">Revoke Access</string>
+    <string name="register_here">Register Here.</string>
+    <!-- Profile strings-->
+    <string name="hint_firstname">First Name</string>
+    <string name="hint_lastname">Last Name</string>
+    <string name="qualification">Qualification</string>
+    <string name="address">Address</string>
+    <string name="height">Height</string>
+    <string name="bmi">BMI</string>
+    <string name="weight">Weight</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="married">Married</string>
+    <string name="unmarried">Unmarried</string>
+
+    <!-- spinner-->
+    <string name="salutation_prompt">Choose salutation</string>
+    <string-array name="salutation_spinner">
+        <item>Mr.</item>
+        <item>Mrs.</item>
+        <item>Miss</item>
+        <item>Dr.</item>
+
+    </string-array>
+
+
+    <string-array name="salutation">
+        <item>Mr.</item>
+        <item>Mrs.</item>
+        <item>Miss</item>
+        <item>Dr.</item>
+    </string-array>
+
+
+    <string-array name="doctorspecialist">
+        <item>Specialty</item>
+        <item>Allergology.</item>
+        <item>Andrology</item>
+        <item>Anesthesia</item>
+        <item>Angiology.</item>
+        <item>Biomedicine.</item>
+        <item>Dermatology.</item>
+        <item>DisasterMedicine.</item>
+    </string-array>
+
+
+    <string-array name="occupation">
+        <item>Occupation</item>
+        <item>Student</item>
+    </string-array>
+
+    <string-array name="ethnicity">
+        <item>ETHNICITY</item>
+        <item>Indian</item>
+        <item>East Asian</item>
+        <item>South Asian</item>
+    </string-array>
+
+
+    <string-array name="bloodgroupentry">
+        <item>BloodGroup</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+    </string-array>
+
+
+    <string-array name="identity_proof_entries">
+        <item>Driving License</item>
+        <item>Aadhaar Card</item>
+        <item>Passport</item>
+        <item>Pan Card</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

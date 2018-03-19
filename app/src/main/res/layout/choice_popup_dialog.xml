@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#3b5998"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Who Are You?"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#fff"/>
+
+    <RadioGroup
+        android:id="@+id/radioDoctorOrPatient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:background="@drawable/buttonstylepink"
+            android:id="@+id/radioDoctor"
+            android:layout_margin="10dp"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_doctor"/>
+
+        <RadioButton
+            android:background="@drawable/buttonstylepink"
+            android:id="@+id/radioPatient"
+            android:layout_margin="10dp"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_patient" />
+
+    </RadioGroup>
+
+    <Button
+        android:background="@drawable/buttonstylepink"
+        android:id="@+id/continueButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Continue"/>
+
+</LinearLayout>

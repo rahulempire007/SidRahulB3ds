@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="instatag.com.b3ds.AddServices">
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="instatag.com.b3ds.ConsultDoctorActivity"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:background="#0084ff"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+
+            android:layout_width="304dp"
+            android:layout_marginTop="30dp"
+            android:layout_height="250dp">
+
+            <TextView
+
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Area of Speciality:"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:layout_gravity="center"/>
+
+            <EditText
+                android:layout_marginTop="26dp"
+                android:textColorHint="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/searchdoctorID"
+android:gravity="center"
+                android:hint="Facility Name"/>
+
+            <Spinner
+
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+
+                android:id="@+id/mySpinner"
+                android:background="@color/white"
+
+                android:entries="@array/doctorspecialist"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="95dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:layout_marginTop="20dp"
+                android:textColorHint="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:inputType="textMultiLine"
+                android:id="@+id/descriptionId"
+android:gravity="center"
+                android:hint="Description"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="#0084ff"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="316dp"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address:"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textSize="25sp"
+                android:layout_gravity="center"/>
+
+            <EditText
+                android:layout_marginTop="26dp"
+                android:textColorHint="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/fulladdressID"
+                android:gravity="center"
+                android:hint="Enter Your Address"/>
+            <EditText
+                android:layout_marginTop="26dp"
+                android:textColorHint="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/placenameID"
+                android:gravity="center"
+                android:hint="Place Name"/>
+            <EditText
+                android:layout_marginTop="26dp"
+                android:textColorHint="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/localityID"
+                android:gravity="center"
+                android:hint="Enter Locality"/>
+            <EditText
+                android:layout_marginTop="26dp"
+                android:textColorHint="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/pincodeID"
+                android:gravity="center"
+                android:hint="Enter PIN code"/>
+
+            <EditText
+                android:layout_marginTop="26dp"
+                android:textColorHint="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/phonenumID"
+                android:gravity="center"
+                android:hint="Enter Phone Number"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="#0084ff"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+
+            android:layout_width="304dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="140dp">
+
+            <TextView
+
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SAVE"
+                android:textStyle="bold"
+                android:id="@+id/saveservicebuttonid"
+                android:background="@drawable/buttonstyle"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                />
+
+            <LinearLayout android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/doctordashboardbtnId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="HOME"
+                    android:textStyle="bold|italic"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="14dp"
+                    android:background="@drawable/buttonstyle"/>
+
+                <Button
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BACK"
+                    android:textStyle="bold|italic"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="#000"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="100dp"
+                    android:background="@drawable/buttonstyle"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+</FrameLayout>

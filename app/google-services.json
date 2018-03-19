@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1084839931093",
+    "firebase_url": "https://b3ds-dda90.firebaseio.com",
+    "project_id": "b3ds-dda90",
+    "storage_bucket": "b3ds-dda90.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1084839931093:android:92efec23c863e94c",
+        "android_client_info": {
+          "package_name": "instatag.com.b3ds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1084839931093-4vua2u5o5d2aoo19ddootv6k6rb8vcnk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "instatag.com.b3ds",
+            "certificate_hash": "efb304844663f42966fc67a3336a8593e64d01a1"
+          }
+        },
+        {
+          "client_id": "1084839931093-bqufcbtoikp000tqlck4kao8cgr2n1f9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBo6ByiAFnGbc1kYTLJKrD7BG36G2my5LA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1084839931093-bqufcbtoikp000tqlck4kao8cgr2n1f9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
